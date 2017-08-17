@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
+<html>
 
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div id="calculator">
+        <div class="row">
+            <button type="button" class="button op" id="clear">clear</button>
+            <div id="screen"></div>
+            <button type="button" class="button" id="neg">+/-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="button num" id="7">7</button>
+            <button type="button" class="button num" id="8">8</button>
+            <button type="button" class="button num" id="9">9</button>
+            <button type="button" class="button op" id="add">+</button>
+        </div>
+        <div class="row">
+            <button type="button" class="button num" id="4">4</button>
+            <button type="button" class="button num" id="5">5</button>
+            <button type="button" class="button num" id="6">6</button>
+            <button type="button" class="button op" id="subtract">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="button num" id="1">1</button>
+            <button type="button" class="button num" id="2">2</button>
+            <button type="button" class="button num" id="3">3</button>
+            <button type="button" class="button op" id="divide">/</button>
+        </div>
+        <div class="row">
+            <button type="button" class="button num" id="0">0</button>
+            <button type="button" class="button dec" id="dec">.</button>
+            <button type="button" class="button" id="sum">=</button>
+            <button type="button" class="button op" id="multiply">*</button>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+     <script type="text/javascript" src="index.js"></script>
 </body>
-</html>
